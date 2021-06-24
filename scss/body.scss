@@ -2,7 +2,7 @@ $ancho:200px;
 $alto:200px;
 
 
-body{
+.gridbody{
     display: grid;
     background-color: #636660;
     grid-template-areas: 'header header menu menu menu menu'

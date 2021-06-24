@@ -26,7 +26,7 @@
   border-radius: 50%;
   background-size: 100% auto; }
 
-body {
+.gridbody {
   display: grid;
   background-color: #636660;
   grid-template-areas: 'header header menu menu menu menu' 'main main main main main main' 'section section section section section section' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer'; }
@@ -88,3 +88,43 @@ body {
 .cardsection img {
   height: 200px;
   width: 200px; }
+
+.conteiner-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: grid;
+  margin-right: 15px;
+  margin-left: 15px;
+  grid-template-areas: 'choco coqui meren' 'porte sonri surti' 'travia'; }
+
+.choco {
+  grid-area: choco; }
+
+.coqui {
+  grid-area: coqui; }
+
+.meren {
+  grid-area: meren; }
+
+.porte {
+  grid-area: porte; }
+
+.sonri {
+  grid-area: sonri; }
+
+.surti {
+  grid-area: surti; }
+
+.travia {
+  grid-area: travia; }
+
+.bodyprodu {
+  background-color: #636660; }
+
+.bodycontac {
+  background-color: #636660; }
