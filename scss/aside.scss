@@ -1,0 +1,14 @@
+.cardaside{
+    grid-area: aside;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin: 30px;
+}
+.cardaside{
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}

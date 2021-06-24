@@ -1,0 +1,14 @@
+.cardsection{
+    grid-area: section;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin: 30px;
+}
+.cardsection{
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,22 @@
+.cardfooter{
+    grid-area:footer ;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.cardfooter__contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cardfooter__redes{
+    img{
+        width: 25px;
+        height: 25px;
+    }
+    
+}

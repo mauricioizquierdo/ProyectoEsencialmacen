@@ -45,3 +45,46 @@ body {
 .carousel-item img {
   width: 50% !important;
   height: 50%; }
+
+.cardaside {
+  grid-area: aside;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: auto;
+  margin: 30px; }
+
+.cardaside img {
+  height: 200px;
+  width: 200px; }
+
+.cardfooter {
+  grid-area: footer;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff; }
+
+.cardfooter__contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.cardfooter__redes img {
+  width: 25px;
+  height: 25px; }
+
+.cardsection {
+  grid-area: section;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: auto;
+  margin: 30px; }
+
+.cardsection img {
+  height: 200px;
+  width: 200px; }
