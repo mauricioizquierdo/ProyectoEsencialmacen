@@ -1,9 +1,41 @@
-@import "scss/nav.scss";
-@import "scss/body.scss";
-@import "scss/card.scss";
-@import "scss/carousel.scss";
-@import "scss/aside.scss";
+ body{
+     font-family:'Roboto', sans-serif; 
+     background-color: #EAF2E0;
+ }
+ h1, h2, h3, h4, h5, h6{font-weight: bold;
+
+ }
+.logotipo{
+    padding: 10px 0;
+    width: 250px;
+}
+.iconoRedesHeader{
+    width: 30px;
+    height: 30px;
+}
+@import "scss/valores.scss";
 @import "scss/footer.scss";
-@import "scss/section.scss";
+@import "scss/productos.scss";
 
+section div {
+    justify-content: center;
+}
+section{
+    background-color: #97A38B;
+    text-align: center;
+}
 
+section{
+    
+    margin: 5px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.titulo p{
+    text-align: center;
+}

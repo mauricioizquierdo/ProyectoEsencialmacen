@@ -1,90 +1,62 @@
-.contenedor__nav {
-  width: 1000px;
-  margin: 0px auto;
-  background: #fff;
-  background-color: #F13548; }
-
-.contenedor__menu li {
-  position: relative;
-  display: inline-block; }
-
-.contenedor__menu li > a {
-  display: block;
-  padding: 15px 20px;
-  color: #353535;
-  font-family: 'open sans';
-  text-decoration: none; }
-
-.contenedor__menu li a:hover {
-  color: #CE7D35; }
-
-.cardlogo img {
-  height: 100px;
-  width: 100px;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  background-size: 100% auto; }
-
 body {
-  display: grid;
-  background-color: #636660;
-  grid-template-areas: 'header header menu menu menu menu' 'main main main main main main' 'section section section section section section' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer'; }
+  font-family: 'Roboto', sans-serif;
+  background-color: #EAF2E0; }
 
-.cardmain {
-  grid-area: main;
-  display: flex;
-  justify-content: space-around;
-  width: auto;
-  height: auto; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
 
-.card-img--modifier {
-  height: 350px;
-  width: 350px; }
+.logotipo {
+  padding: 10px 0;
+  width: 250px; }
 
-.carousel-item img {
-  width: 50% !important;
-  height: 50%; }
+.iconoRedesHeader {
+  width: 30px;
+  height: 30px; }
 
-.cardaside {
-  grid-area: aside;
-  display: flex;
-  justify-content: space-around;
-  width: auto;
-  height: auto;
-  margin: 30px; }
+.col-12 img {
+  height: 250px;
+  width: 250px; }
 
-.cardaside img {
-  height: 200px;
-  width: 200px; }
-
-.cardfooter {
-  grid-area: footer;
-  background: #111;
-  height: auto;
-  width: 100vw;
-  padding-top: 40px;
-  color: #fff; }
-
-.cardfooter__contenido {
-  display: flex;
-  align-items: center;
+.col-12 {
   justify-content: center;
-  flex-direction: column;
   text-align: center; }
 
-.cardfooter__redes img {
-  width: 25px;
-  height: 25px; }
+footer {
+  background-color: black;
+  padding: 100px 0;
+  text-align: center; }
 
-.cardsection {
-  grid-area: section;
-  display: flex;
-  justify-content: space-around;
-  width: auto;
-  height: auto;
-  margin: 30px; }
+.productos {
+  display: flex; }
 
-.cardsection img {
-  height: 200px;
-  width: 200px; }
+.card {
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 3px;
+  padding: 5px; }
+
+.product h5 {
+  font-size: 1.7em;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+section div {
+  justify-content: center; }
+
+section {
+  background-color: #97A38B;
+  text-align: center; }
+
+section {
+  margin: 5px;
+  padding: 10px; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+.titulo p {
+  text-align: center; }
