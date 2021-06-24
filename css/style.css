@@ -1,0 +1,47 @@
+.contenedor__nav {
+  width: 1000px;
+  margin: 0px auto;
+  background: #fff;
+  background-color: #F13548; }
+
+.contenedor__menu li {
+  position: relative;
+  display: inline-block; }
+
+.contenedor__menu li > a {
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: 'open sans';
+  text-decoration: none; }
+
+.contenedor__menu li a:hover {
+  color: #CE7D35; }
+
+.cardlogo img {
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto; }
+
+body {
+  display: grid;
+  background-color: #636660;
+  grid-template-areas: 'header header menu menu menu menu' 'main main main main main main' 'section section section section section section' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer'; }
+
+.cardmain {
+  grid-area: main;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: auto; }
+
+.card-img--modifier {
+  height: 350px;
+  width: 350px; }
+
+.carousel-item img {
+  width: 50% !important;
+  height: 50%; }

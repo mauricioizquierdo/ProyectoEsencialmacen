@@ -1,0 +1,15 @@
+$ancho:200px;
+$alto:200px;
+
+
+body{
+    display: grid;
+    background-color: #636660;
+    grid-template-areas: 'header header menu menu menu menu'
+                         'main main main main main main'
+                         'section section section section section section'
+                         'aside aside aside aside aside aside'
+                         'footer footer footer footer footer footer';
+
+                    
+}
